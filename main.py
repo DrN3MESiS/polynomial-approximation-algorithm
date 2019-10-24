@@ -3,6 +3,7 @@
 Created on Wed Oct 23 19:16:45 2019
 
 @author: Alan Maldonado
+@version: 1.0.0
 """
 
 """
