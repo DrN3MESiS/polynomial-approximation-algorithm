@@ -23,8 +23,9 @@ def algorithmStart():
     pass
 
 # Change
+x = sp.symbol('x') #X is the symbol.
+f = sp.exp(x) #Define the function
 
-function = x
 poly_grad = 1
 center_p = 0
-algorithmStart(function, poly_grad, center_p)
+algorithmStart(f, poly_grad, center_p)
