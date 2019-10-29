@@ -17,8 +17,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 
-
-
 #Default Variables
 xlim = [-2, 3] #Graph Range
 
@@ -51,7 +49,6 @@ def algorithmStart(f, grad, x0):
     ax.set_ylabel('Y')
     fig.canvas.draw()
     
-
 ########### Change
 x = sp.Symbol('x') #X is the symbol.
 f = sp.exp(x) #Define the function
